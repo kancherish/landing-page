@@ -16,13 +16,13 @@ nav{
 }
 header nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .nav-links{
     /* width: 450px; */
     display: flex;
     gap:2em;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .nav-links  li{
@@ -35,8 +35,14 @@ header nav{
 
 
 .hero{
+    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:9em;
+}
+.text_sec{
+    flex-basis: 30%;
+    align-self: center;
 }
 
 .main_text{
@@ -46,6 +52,61 @@ header nav{
     color: #F9FAF8;
 }
 
+.sub_text{
+    white-space-collapse: preserve-breaks;
+    color: azure;
+}
+
+.sign_up{
+    margin-top: 6px;
+    background-color: #3882f6;
+    border: 0px solid blue;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+}
+
 .image img{
     width:400px;
+}
+
+.image_gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2739;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.image_sec{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ind_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image_sec img{
+    width:160px;
+    height: 160px;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+.image_sec p{
+    white-space-collapse: preserve-breaks;
+    text-align: center;
 }
