@@ -110,3 +110,61 @@ header nav{
     white-space-collapse: preserve-breaks;
     text-align: center;
 }
+
+.self_jerk{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+.quote{
+    /* padding: 200px; */
+    white-space-collapse: preserve-breaks;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: start;
+}
+
+.quote_auth{
+   width: 100vh;
+   text-align: end;
+}
+
+.cta{
+    padding: 90px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 60vw;
+    /* height: 20vh; */
+    background-color: #3882f6;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.cta_button button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    border:2px solid white;
+    border-radius: 8px;
+}
+
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2739;
+    color: #e5e7eb;
+}
